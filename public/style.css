@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Codystar:300&display=swap");
+
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#main-page {
+    justify-content: space-between;
+    padding: 100px;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#arrow-container {
+    display: flex;
+    justify-content: center;
+    bottom: 30px;
+}
+/* #arrow-container h1 {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+} */
+
+/* ===================================================== */
+#navbar {
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    padding: 5px;
+    font-size: 25px;
+    box-shadow: 5px 0px 23px 27px black;
+}
+
+#navbar a {
+    font-family: "Codystar";
+    color: white;
+    cursor: pointer;
+}
+
+#navbar > .active {
+    text-shadow: 0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat,
+        0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat;
+}
+
+/* ===================================================== */
+#contact {
+    height: 100vh;
+}
+
+h2 {
+    color: wheat;
+}
+
+#contact-container {
+    border: wheat 4px dotted;
+    border-radius: 35px;
+    margin: 50px;
+    position: relative;
+    top: 170px;
+    box-shadow: 0 0 25px wheat;
+    padding: 30px;
+}
+i {
+    color: wheat;
+}
+
+/* ===================================================== */
+h3.hover-text {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    width: 300px;
+    top: -274px;
+    left: 0px;
+    border-radius: 35px;
+    text-align: center;
+    padding: 100px 20px 100px;
+    opacity: 0;
+    font-family: "Codystar";
+    font-size: 38px;
+    letter-spacing: 5px;
+    color: white;
+    text-shadow: 0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat,
+        0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat, 0 0 10px wheat;
+}
+
+a {
+    text-decoration: none;
+    margin: 30px;
+    width: 300px;
+    transition: transform 0.3s linear;
+    animation: load 1s linear;
+}
+a:hover h3 {
+    opacity: 0.9;
+}
+a:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+.project-container {
+    height: 300px;
+    border: wheat 4px dotted;
+    border-radius: 35px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-container:hover {
+    box-shadow: 0 0 25px wheat;
+    outline: none;
+}
+
+img {
+    border-radius: 35px;
+    width: 300px;
+    height: 230px;
+    object-fit: cover;
+}
+
+.text {
+    margin: 30px;
+}
+
+p,
+h3 {
+    color: rgb(255, 250, 221);
+    font-family: "Questrial", sans-serif;
+}
+
+p {
+    width: 40vw;
+}
+i {
+    color: rgb(255, 250, 221);
+}
+/* ===================================================== */
+
+h1 {
+    font-family: "Codystar";
+    font-size: 50px;
+    letter-spacing: 5px;
+
+    color: #fff;
+    text-shadow: 0 0 10px wheat, 0 0 20px wheat, 0 0 30px wheat, 0 0 40px wheat,
+        0 0 50px wheat, 0 0 60px wheat, 0 0 70px wheat, 0 0 90px wheat;
+}
+/* @-webkit-keyframes glow {
+    from {
+        color: #fff;
+        text-shadow: 0 0 10px wheat, 0 0 20px wheat, 0 0 30px wheat,
+            0 0 40px wheat, 0 0 50px wheat, 0 0 60px wheat, 0 0 70px wheat,
+            0 0 90px wheat;
+    }
+
+    to {
+        color: gray;
+        text-shadow: 0 0 20px wheat, 0 0 30px wheat, 0 0 40px wheat,
+            0 0 50px wheat, 0 0 60px wheat, 0 0 70px wheat, 0 0 80px wheat,
+            0 1 90px wheat;
+    }
+} */
+
+.preview {
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.player {
+    border: wheat 4px dotted;
+    border-radius: 35px;
+    width: 90vw;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 17px 7px wheat;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1.x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+video {
+    width: 75vw;
+}
