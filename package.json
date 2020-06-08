@@ -1,15 +1,12 @@
 {
     "name": "spiced-social-network",
-    "homepage": "http://matzaa.github.io/portfolio",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "start": "node index.js",
         "build": "node build.js",
-        "test": "jest",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -b master -d build"
+        "test": "jest"
     },
     "engines": {
         "node": "10.15.1"
