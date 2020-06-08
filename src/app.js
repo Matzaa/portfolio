@@ -12,7 +12,7 @@ export default function App() {
                     <br></br>
                     I'm Matzaa <br></br>
                     <br></br>
-                    full stack developer <br></br>
+                    full stack web developer <br></br>
                     <br></br>
                     welcome to my portfolio
                 </h1>

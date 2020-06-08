@@ -18,6 +18,10 @@
     justify-content: center;
     bottom: 30px;
 }
+
+#main-page h1 {
+    text-align: justify;
+}
 /* #arrow-container h1 {
     -webkit-animation: glow 2s ease-in-out infinite alternate;
     -moz-animation: glow 2s ease-in-out infinite alternate;

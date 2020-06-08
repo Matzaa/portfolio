@@ -20,11 +20,11 @@ export default class Portfolio extends React.Component {
     }
 
     setSN() {
-        this.setState({ url: "./imdb-sn.mov" });
+        this.setState({ url: "./SN-cut.mp4" });
         this.setState({ modal: !this.state.modal });
     }
     setIB() {
-        this.setState({ url: "./ib-preview.mov" });
+        this.setState({ url: "./IB-cut.mp4" });
         this.setState({ modal: !this.state.modal });
     }
 
