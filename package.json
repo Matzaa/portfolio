@@ -1,5 +1,6 @@
 {
     "name": "spiced-social-network",
+    "homepage": "http://matzaa.github.io/portfolio",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -60,6 +61,5 @@
     "license": "ISC",
     "devDependencies": {
         "gh-pages": "^3.0.0"
-    },
-    "homepage": "http://matzaa.github.io/portfolio"
+    }
 }
