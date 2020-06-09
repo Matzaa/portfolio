@@ -2,7 +2,7 @@
 import React from "react";
 import Portfolio from "./portfolio";
 import Contact from "./contact";
-import * as Scroll from "react-scroll";
+// import { Link } from "react-scroll";
 
 export default function App() {
     return (
@@ -19,8 +19,8 @@ export default function App() {
                     <h1>⇩</h1>
                 </div>
             </div>
-            <Portfolio activeClass="active" />
-            <Contact activeClass="active" />
+            <Portfolio />
+            <Contact />
         </div>
     );
 }

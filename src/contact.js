@@ -21,7 +21,11 @@ export default function Contact() {
                     >
                         <i className="fab fa-github"></i>
                     </a>
-                    <a>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/matzaa-wahorn-131312a7"
+                    >
                         <i className="fab fa-linkedin"></i>
                     </a>
                 </div>
