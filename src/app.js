@@ -8,9 +8,7 @@ export default function App() {
         <div id="app">
             <div id="main-page">
                 <h1>
-                    Hi<br></br>
-                    <br></br>
-                    I'm Matzaa <br></br>
+                    Hi I'm Matzaa <br></br>
                     <br></br>
                     full stack web developer <br></br>
                     <br></br>
