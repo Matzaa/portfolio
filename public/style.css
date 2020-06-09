@@ -19,9 +19,6 @@
     bottom: 30px;
 }
 
-#main-page h1 {
-    text-align: justify;
-}
 /* #arrow-container h1 {
     -webkit-animation: glow 2s ease-in-out infinite alternate;
     -moz-animation: glow 2s ease-in-out infinite alternate;
@@ -39,7 +36,6 @@
     font-size: 25px;
     box-shadow: 5px 0px 23px 27px black;
     z-index: 2;
-    color: black;
 }
 
 #navbar a {

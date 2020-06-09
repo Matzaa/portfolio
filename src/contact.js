@@ -6,7 +6,12 @@ export default function Contact() {
             <div id="contact-container">
                 <h3 className="project-title">Contact me</h3>
                 <div id="links">
-                    <a href="mailto:matzaa@matzaawahorn.com">
+                    <a
+                        href="mailto:matzaa@matzaawahorn.com"
+                        target="_self"
+                        data-content="matzaa@matzaawahorn.com"
+                        data-type="mail"
+                    >
                         <i className="far fa-paper-plane"></i>
                     </a>
                     <a

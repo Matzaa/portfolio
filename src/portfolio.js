@@ -166,14 +166,6 @@ export default class Portfolio extends React.Component {
                             </a>
                             <p> see code!</p>
                         </p>
-                        {/* <a
-                            className="visit"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://neighborspetition.herokuapp.com/"
-                        >
-                            visit site!
-                        </a> */}
                     </div>
 
                     <a
@@ -233,14 +225,6 @@ export default class Portfolio extends React.Component {
                             </a>
                             <p> see code!</p>
                         </p>
-                        {/* <a
-                            className="visit"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                            href="https://matzaa.github.io/connect-four//"
-                        >
-                            visit site!
-                        </a> */}
                     </div>
 
                     <a
