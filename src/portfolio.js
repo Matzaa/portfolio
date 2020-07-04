@@ -113,7 +113,6 @@ export default class Portfolio extends React.Component {
                                     comment on any of the pictures and see other
                                     comments
                                 </li>
-                                <li>infinite scroll</li>
                             </ul>
                         </p>
                         <p>

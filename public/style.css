@@ -258,6 +258,15 @@ p {
     text-align: justify;
 }
 
+/* #links a p {
+    visibility: hidden;
+    display: inline;
+    padding: 0px 50px 0px 20px;
+}
+#links a:hover p {
+    visibility: visible;
+} */
+
 /* ====================== MEDIA QUERIES =============================== */
 
 @media screen and (min-width: 668px) and (max-width: 1200px) {

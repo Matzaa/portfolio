@@ -13,6 +13,7 @@ export default function Contact() {
                         data-type="mail"
                     >
                         <i className="far fa-paper-plane"></i>
+                        {/* <p className="mail">matzaa@matzaawahorn.com</p> */}
                     </a>
                     <a
                         rel="noopener noreferrer"
