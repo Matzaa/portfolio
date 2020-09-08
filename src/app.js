@@ -2,7 +2,7 @@
 import React from "react";
 import Portfolio from "./portfolio";
 import Contact from "./contact";
-// import { Link } from "react-scroll";
+
 
 export default function App() {
     return (
